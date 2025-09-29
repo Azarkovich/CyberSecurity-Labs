@@ -1,0 +1,5 @@
+- Objectif: 
+- Fonctionnalités attendues: 
+- Inputs (ex: target IP/range, ports, timeout): 
+- Outputs (ex: JSON, CSV, format des champs):
+- Critères de succès:

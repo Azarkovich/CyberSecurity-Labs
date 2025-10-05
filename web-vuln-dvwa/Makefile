@@ -1,8 +1,12 @@
+.RECIPEPREFIX := >
+.PHONY: up down logs reset
+
 up:
-\tdocker compose up -d
+> docker compose up -d
 down:
-\tdocker compose down
+> docker compose down
 logs:
-\tdocker compose logs -f --tail=200
+> docker compose logs -f --tail=200
 reset:
-\tdocker compose down -v && docker compose up -d
+> docker compose down -v && docker compose up -d
+

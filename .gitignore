@@ -1,0 +1,24 @@
+# Fichiers Python compilés 
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels
+venv/
+.env/
+env/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers d'IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Autres
+:
